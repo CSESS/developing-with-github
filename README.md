@@ -47,18 +47,21 @@ EOF
 ```
 git add src/pages
 git commit -m "<your_username>: add page"
-git status # sanity check before push
+git status # sanity check
+git log # more sanity check
 git push origin feature/add-page
 ```
 
-6. Visit your forked repository on GitHub (e.g., https://github.com/your-username/developing-with-github) and you should see a prompt to create a pull request for your branch. Click on the "Compare & pull request" button.
+6. Visit your forked repository on GitHub (e.g., `https://github.com/<your-username>/developing-with-github`) and you should see a prompt to create a pull request for your branch. Click on the "Compare & pull request" button.
 
-7. Review the changes you made and provide a clear and concise description of the changes in the pull request. If necessary, you can also add comments or additional information.
+7. Review the changes you made and provide a clear description of the changes in the pull request. If necessary, add comments or additional information.
 
-8. Once you're satisfied with the pull request, click on the "Create pull request" button to submit it.
+8. Satisfied with the pull request? Click on the "Create pull request" button to submit it.
+
+9. Once your submitted pull request is accepted, you should see your markdown content rendered under `https://csess.github.io/developing-with-github/<your_username>`. For COMP4900 students, please submit your own **pull request link** (e.g., `https://github.com/CSESS/developing-with-github/pull/1`) to Canvas.
 
 ## Contributing
 Contributions to this repository are not expected as it is primarily meant for the seminar attendees. However, if you have any suggestions or improvements, please feel free to open an issue in the repository.
 
 ## License
-The project was bootstrapped with `yarn create astro`. The page contents under `src/pages` of this repository are licensed under the MIT License.
+The project was bootstrapped with `yarn create astro`. The contents under `src/pages` of this repository are licensed under the MIT License.
