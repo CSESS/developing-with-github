@@ -14,4 +14,5 @@ I'm sleepy, see u guys on the coming CSESS activities!!!
 CSESS EV
 ~~ 
 
-Special thanks to Desmond, Cecia, Kenneth, Alex, Kris, CSE Department and CSESS EXCO
+Special thanks to Desmond, Cecia, Kenneth, Alex, Kris, CSE Department and CSESS EXCO.
+
