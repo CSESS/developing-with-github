@@ -11,18 +11,20 @@ Host: [@usertam](https://github.com/usertam)
 To get started with the tasks, follow these steps:
 1. Fork this repository to your own GitHub account. Click "Fork", then "Create Fork". The same repository should now be under your GitHub name.
 
-2. Clone the repository to your local machine using the following command:
+2. If you haven't set up SSH authentication with GitHub: Go to upper-right corner, click on your profile photo, select "Settings". Go to left sidebar, select "Developer settings". Click on "Personal access tokens", "Tokens (Classic)". Click on "Generate new token (classic)". Enter a description (e.g., "Developing with GitHub"), select the "repo" scope, then click on "Generate token". Copy the generated token.
+
+3. Clone the repository to your local machine using the following command:
 ```
-git clone https://github.com/<your_username>/developing-with-github.git
+git clone https://<ghp_token>@github.com/<your_username>/developing-with-github.git
 ```
 
-3. Create a new branch `feature/add-page` based on the default branch:
+4. Create a new branch `feature/add-page` based on the default branch:
 ```
 cd developing-with-github
 git checkout -b feature/add-page
 ```
 
-4. Open a new markdown file (.md) with your username, inside the directory `src/pages`. Write some feedback for [Samuel](https://github.com/usertam), praise [Desmond](https://www.cse.ust.hk/~desmond), or write something else really nice.
+5. Open a new markdown file (.md) with your username, inside the directory `src/pages`. Write some feedback for [Samuel](https://github.com/usertam), praise [Desmond](https://www.cse.ust.hk/~desmond), or write something else really nice.
 ~~~
 cat <<'EOF' > src/pages/<your_username>.md
 # Letter to the Samuel on the Podium
@@ -43,7 +45,7 @@ Samuel
 EOF
 ~~~
 
-5. Add the new file, commit the change, push to your forked repository.
+6. Add the new file, commit the change, push to your forked repository.
 ```
 git add src/pages
 git commit -m "<your_username>: add page"
@@ -52,13 +54,13 @@ git log # more sanity check
 git push origin feature/add-page
 ```
 
-6. Visit your forked repository on GitHub (e.g., `https://github.com/<your-username>/developing-with-github`) and you should see a prompt to create a pull request for your branch. Click on the "Compare & pull request" button.
+7. Visit your forked repository on GitHub (e.g., `https://github.com/<your-username>/developing-with-github`) and you should see a prompt to create a pull request for your branch. Click on the "Compare & pull request" button.
 
-7. Review the changes you made and provide a clear description of the changes in the pull request. If necessary, add comments or additional information.
+8. Review the changes you made and provide a clear description of the changes in the pull request. If necessary, add comments or additional information.
 
-8. Satisfied with the pull request? Click on the "Create pull request" button to submit it.
+9. Satisfied with the pull request? Click on the "Create pull request" button to submit it.
 
-9. Once your submitted pull request is accepted, you should see your markdown content rendered under `https://csess.github.io/developing-with-github/<your_username>`. For COMP4900 students, please submit your own **pull request link** (e.g., `https://github.com/CSESS/developing-with-github/pull/1`) to Canvas.
+10. Once your submitted pull request is accepted, you should see your markdown content rendered under `https://csess.github.io/developing-with-github/<your_username>`. For COMP4900 students, please submit your own **pull request link** (e.g., `https://github.com/CSESS/developing-with-github/pull/1`) to Canvas.
 
 ## Contributing
 Contributions to this repository are not expected as it is primarily meant for the seminar attendees. However, if you have any suggestions or improvements, please feel free to open an issue in the repository.
