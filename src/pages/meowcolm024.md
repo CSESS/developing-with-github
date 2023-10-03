@@ -8,9 +8,7 @@ Date: Mon, 2 Oct 2023 23:59:59 +0800
 
 Dear Future Samuel on the Podium,
 
-Doing this seminar and everything live must be really stressful.
-But I do hope both the audience and you can take home something. :)
+The second edit! I'm going to tell you a joke! What's brown and sticky? A stick :)
 
 Best,
 Samuel
-EOF
