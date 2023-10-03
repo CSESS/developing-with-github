@@ -1,5 +1,4 @@
-cat << 'EOF' > src/pages/mrtumi.md
-# Letter to the Samuel on the Podium
+# Letter to Samuel on the Podium
 ```
 From: Rick Astley <rastley@connect.ust.hk>
 To: Samuel Tam <hytamap@connect.ust.hk>
@@ -27,3 +26,5 @@ Never gonna tell a lie and hurt you
 Best,
 Rick
 EOF
+
+Sent from my Apple Vision Pro
