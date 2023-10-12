@@ -19,7 +19,7 @@ Also, I think Samuel can include the instruction manual for Windows user. :)
 ## Doing this seminar and everything live must be really stressful.
 ### But I do hope both the audience and you can take home something. :)
 
-
+Keep it on Samuel!
 
 Best,
 Vincent Chan
