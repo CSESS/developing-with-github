@@ -1,3 +1,4 @@
+swyan@connect.ust.hk 
 Hi, I am testing this on 3/10 02:53AM. Hope this is work!<br>
 
 I like rap and r&b.<br>
@@ -14,5 +15,7 @@ I'm sleepy, see u guys on the coming CSESS activities!!!<br>
 CSESS EV<br>
 ~~<br>
 
-Special thanks to Desmond, Cecia, Kenneth, Alex, Kris, CSE Department and CSESS EXCO.
+swyan@connect.ust.hk
+
+Special thanks to Desmond, Cecia, Kenneth, Alex, Kris, Eden, CSE Department and CSESS EXCO.
 
